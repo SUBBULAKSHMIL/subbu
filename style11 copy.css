@@ -1,0 +1,19 @@
+.split{
+    height:100%;
+    width:50%;
+    top:0;
+    position:fixed;
+}
+.left{
+    left:0;
+    padding-top: 100px;
+    background-color:darksalmon;
+}
+.right{
+    right:0;
+    background-color:cadetblue;
+    overflow-y:scroll;
+}
+.centered{
+    text-align:center;
+}

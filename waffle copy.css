@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family:fantasy;
+    text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family:Courier New;
+    font-size:xx-large;
+    color:black;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-family:Courier New;
+    font-size:xx-large ;
+    color:black;
+}
+
+.d1 {
+    line-height: 0 ;
+    background-color:rgb(251, 251, 237); 
+    height: 100%;
+    width: 100%;
+}
+.d2 {
+    line-height: 2 ;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+  }
+.demo {
+    line-height: 2 ;
+    font-size: xx-large;
+  }
+a{
+    color:white;
+    text-decoration: none;
+}
